@@ -27,6 +27,7 @@ const User = () => {
                     <tr className="border-0">
                         <th className="border-0">Thông tin</th>
                         <th className="border-0">Hãng xe</th>
+                        <th className="border-0">Số Điện Thoại</th>
                         <th className="border-0">Trạng thái</th>
                     </tr>
                     </thead>
