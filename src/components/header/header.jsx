@@ -4,10 +4,8 @@ import {Navbar, NavbarBrand} from 'reactstrap';
 /*--------------------------------------------------------------------------------*/
 /* Import images which are need for the HEADER                                    */
 /*--------------------------------------------------------------------------------*/
-import logodarkicon from '../../assets/images/logo-icon.png';
-import logolighticon from '../../assets/images/logo-light-icon.png';
-import logodarktext from '../../assets/images/logo-text.png';
-import logolighttext from '../../assets/images/logo-light-text.png';
+import logo from '../../assets/images/logo.png';
+import repair from '../../assets/images/users/repair.png';
 
 const Header = () => {
 
@@ -27,17 +25,17 @@ const Header = () => {
                     {/*--------------------------------------------------------------------------------*/}
                     <NavbarBrand href="/">
                         <b className="logo-icon">
-                            <img src={logodarkicon} alt="homepage" className="dark-logo"/>
+                            <img width={100} src={repair} alt="homepage" className="dark-logo"/>
                             <img
-                                src={logolighticon}
+                                src={repair}
                                 alt="homepage"
                                 className="light-logo"
                             />
                         </b>
                         <span className="logo-text">
-                            <img src={logodarktext} alt="homepage" className="dark-logo"/>
+                            <img width={120} src={logo} alt="homepage" className="dark-logo"/>
                             <img
-                                src={logolighttext}
+                                src={logo}
                                 className="light-logo"
                                 alt="homepage"
                             />
