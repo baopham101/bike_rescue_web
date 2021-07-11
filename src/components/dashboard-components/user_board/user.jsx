@@ -37,84 +37,88 @@ const User = () => {
                                 <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45"/>
                                 </div>
                                 <div className="">
-                                    <h5 className="mb-0 font-16 font-medium">Hanna Gover</h5>
-                                    <span>hgover@gmail.com</span></div>
+                                    <h5 className="mb-0 font-16 font-medium">Nguyễn Trọng T</h5>
+                                    <span>taitt1@gmail.com</span></div>
                             </div>
                         </td>
-                        <td>Elite Admin</td>
+                        <td>Yamaha Acruzo</td>
+                        <td>090535221</td>
 
                         <td>
-                            <h5>Đang hoạt động</h5>
+                            <h5 className="text-success" >Đang hoạt động</h5>
                         </td>
                         <td>
-                            <Button>Xem</Button>
-                            <Button>Xem</Button>
-                            <Button>Xem</Button>
+                            <Button style={{marginRight: '1em'}} className="btn btn-outline-primary">Cập Nhật</Button>
+                            <Button style={{marginRight: '1em'}} className="btn btn-outline-danger">Xem Báo Cáo</Button>
+                            <span className="text-warning">hiện có 3 lần báo cáo</span>
                         </td>
                     </tr>
+
                     <tr>
                         <td>
                             <div className="d-flex no-block align-items-center">
-                                <div className="mr-2"><img src={img2} alt="user" className="rounded-circle" width="45"/>
+                                <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45"/>
                                 </div>
                                 <div className="">
-                                    <h5 className="mb-0 font-16 font-medium">Daniel Kristeen</h5>
-                                    <span>Kristeen@gmail.com</span></div>
+                                    <h5 className="mb-0 font-16 font-medium">Nguyễn Thành A</h5>
+                                    <span>thanht32@gmail.com</span></div>
                             </div>
                         </td>
-                        <td>Elite Admin</td>
+                        <td>Honda Dream</td>
+                        <td>090535621</td>
 
                         <td>
-                            <h5>Đang hoạt động</h5>
+                            <h5 className="text-success" >Đang hoạt động</h5>
                         </td>
                         <td>
-                            <Button>Xem</Button>
-                            <Button>Xem</Button>
-                            <Button>Xem</Button>
+                            <Button style={{marginRight: '1em'}} className="btn btn-outline-primary">Cập Nhật</Button>
                         </td>
                     </tr>
+
                     <tr>
                         <td>
                             <div className="d-flex no-block align-items-center">
-                                <div className="mr-2"><img src={img3} alt="user" className="rounded-circle" width="45"/>
+                                <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45"/>
                                 </div>
                                 <div className="">
-                                    <h5 className="mb-0 font-16 font-medium">Julian Josephs</h5>
-                                    <span>Josephs@gmail.com</span></div>
+                                    <h5 className="mb-0 font-16 font-medium">Phan Bá D</h5>
+                                    <span>phanhg1@gmail.com</span></div>
                             </div>
                         </td>
-                        <td>Elite Admin</td>
+                        <td>Piaggo Vespa</td>
+                        <td>0925135221</td>
 
                         <td>
-                            <h5>Đang hoạt động</h5>
+                            <h5 className="text-success" >Đang hoạt động</h5>
                         </td>
                         <td>
-                            <Button>Xem</Button>
-                            <Button>Xem</Button>
-                            <Button>Xem</Button>
+                            <Button style={{marginRight: '1em'}} className="btn btn-outline-primary">Cập Nhật</Button>
                         </td>
                     </tr>
+
                     <tr>
                         <td>
                             <div className="d-flex no-block align-items-center">
-                                <div className="mr-2"><img src={img4} alt="user" className="rounded-circle" width="45"/>
+                                <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45"/>
                                 </div>
                                 <div className="">
-                                    <h5 className="mb-0 font-16 font-medium">Jan Petrovic</h5>
-                                    <span>hgover@gmail.com</span></div>
+                                    <h5 className="mb-0 font-16 font-medium">Thành Thị V</h5>
+                                    <span>ta22vv@gmail.com</span></div>
                             </div>
                         </td>
-                        <td>Elite Admin</td>
+                        <td>Yamaha RX0</td>
+                        <td>090855221</td>
 
                         <td>
-                            <h5>Đang hoạt động</h5>
+                            <h5 className="text-warning" >Đã khóa tài khoản</h5>
                         </td>
                         <td>
-                            <Button>Xem</Button>
-                            <Button>Xem</Button>
-                            <Button>Xem</Button>
+                            <Button style={{marginRight: '1em'}} className="btn btn-outline-warning">Mở khóa tài khoản</Button>
+                            <Button style={{marginRight: '1em'}} className="btn btn-outline-danger">Xem Báo Cáo</Button>
+                            <span className="text-warning">đã có 3 lần báo cáo</span>
                         </td>
                     </tr>
+                   
                     </tbody>
                 </Table>
             </CardBody>
