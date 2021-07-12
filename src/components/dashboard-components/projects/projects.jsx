@@ -59,7 +59,7 @@ const Projects = () => {
                         <td>
                             <Button style={{marginRight: '1em'}} className="btn btn-outline-primary">Cập Nhật</Button>
                             <Button style={{marginRight: '1em'}} className="btn btn-outline-danger">Xem Báo Cáo</Button>
-                            <span className="text-warning">hiện có 3 lần báo cáo</span>
+                            <span className="text-warning">có 1 lần báo cáo</span>
                         </td>
                     </tr>
                     
@@ -69,25 +69,22 @@ const Projects = () => {
                                 <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45"/>
                                 </div>
                                 <div className="">
-                                    <h5 className="mb-0 font-16 font-medium">Thành tài Auto</h5>
+                                    <h5 className="mb-0 font-16 font-medium">Thành Danh Auto</h5>
                                     <span>13 Phố Thị Khai, Quận 3, TP.HCM</span></div>
                             </div>
                         </td>
                         <td>
-                            <span style={{marginRight: '1em'}}  class="badge badge-secondary">Bể bánh</span>
                             <span style={{marginRight: '1em'}}  class="badge badge-secondary">Hư máy</span>
                             <span style={{marginRight: '1em'}}  class="badge badge-secondary">Hết xăng</span>
 
                         </td>
-                        <td>090535221</td>
+                        <td>090535612</td>
 
                         <td>
-                            <h5 className="text-success" >Đang hoạt động</h5>
+                            <h5 className="text-danger" >Đã ngưng hoạt động</h5>
                         </td>
                         <td>
                             <Button style={{marginRight: '1em'}} className="btn btn-outline-primary">Cập Nhật</Button>
-                            <Button style={{marginRight: '1em'}} className="btn btn-outline-danger">Xem Báo Cáo</Button>
-                            <span className="text-warning">hiện có 3 lần báo cáo</span>
                         </td>
                     </tr>
                     
@@ -97,8 +94,32 @@ const Projects = () => {
                                 <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45"/>
                                 </div>
                                 <div className="">
-                                    <h5 className="mb-0 font-16 font-medium">Thành tài Auto</h5>
-                                    <span>97 Ngõ 5, Âu Cơ, Hà Nội</span></div>
+                                    <h5 className="mb-0 font-16 font-medium">Minh Bạc Garage</h5>
+                                    <span>117 Ngõ 5, Âu Cơ, Hà Nội</span></div>
+                            </div>
+                        </td>
+                        <td>
+                            <span style={{marginRight: '1em'}}  class="badge badge-secondary">Bể bánh</span>
+                            <span style={{marginRight: '1em'}}  class="badge badge-secondary">Hết xăng</span>
+                        </td>
+                        <td>091135221</td>
+
+                        <td>
+                            <h5 className="text-success" >Đang hoạt động</h5>
+                        </td>
+                        <td>
+                            <Button style={{marginRight: '1em'}} className="btn btn-outline-primary">Cập Nhật</Button>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <div className="d-flex no-block align-items-center">
+                                <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45"/>
+                                </div>
+                                <div className="">
+                                    <h5 className="mb-0 font-16 font-medium">Sửa Xe Vĩnh Cữu</h5>
+                                    <span>441 Phan Văn Trị, TP.HCM</span></div>
                             </div>
                         </td>
                         <td>
@@ -113,35 +134,6 @@ const Projects = () => {
                         </td>
                         <td>
                             <Button style={{marginRight: '1em'}} className="btn btn-outline-primary">Cập Nhật</Button>
-                            <Button style={{marginRight: '1em'}} className="btn btn-outline-danger">Xem Báo Cáo</Button>
-                            <span className="text-warning">hiện có 3 lần báo cáo</span>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <div className="d-flex no-block align-items-center">
-                                <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45"/>
-                                </div>
-                                <div className="">
-                                    <h5 className="mb-0 font-16 font-medium">Thành tài Auto</h5>
-                                    <span>97 Ngõ 5, Âu Cơ, Hà Nội</span></div>
-                            </div>
-                        </td>
-                        <td>
-                            <span style={{marginRight: '1em'}}  class="badge badge-secondary">Bể bánh</span>
-                            <span style={{marginRight: '1em'}}  class="badge badge-secondary">Hư máy</span>
-                            <span style={{marginRight: '1em'}}  class="badge badge-secondary">Hết xăng</span>
-                        </td>
-                        <td>090535221</td>
-
-                        <td>
-                            <h5 className="text-success" >Đang hoạt động</h5>
-                        </td>
-                        <td>
-                            <Button style={{marginRight: '1em'}} className="btn btn-outline-primary">Cập Nhật</Button>
-                            <Button style={{marginRight: '1em'}} className="btn btn-outline-danger">Xem Báo Cáo</Button>
-                            <span className="text-warning">hiện có 3 lần báo cáo</span>
                         </td>
                     </tr>
                     

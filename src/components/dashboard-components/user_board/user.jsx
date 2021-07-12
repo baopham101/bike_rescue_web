@@ -51,7 +51,7 @@ const User = () => {
                         <td>
                             <Button style={{marginRight: '1em'}} className="btn btn-outline-primary">Cập Nhật</Button>
                             <Button style={{marginRight: '1em'}} className="btn btn-outline-danger">Xem Báo Cáo</Button>
-                            <span className="text-warning">hiện có 3 lần báo cáo</span>
+                            <span className="text-warning">có 3 lần báo cáo</span>
                         </td>
                     </tr>
 
